@@ -1,0 +1,21 @@
+.App {
+    font-family: Arial, sans-serif;
+  }
+  
+  input {
+    padding: 8px;
+    margin-left: 400px;
+    margin-bottom: 5px;
+  }
+  
+  button {
+    padding: 200px 100px;
+    background-color: #00BFFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #007ACC;
+  }

@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: palegoldenrod; /* Cambia esto si el fondo es verde */
+  }
+  
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: palegoldenrod; /* Asegúrate de que esta clase no tenga un fondo verde */
+  }
+  
+  .creative-menu ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .creative-menu li {
+    margin: 0 15px;
+  }
+  
+  .creative-menu a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #f4f4f4; /* Este es el fondo para los enlaces */
+    transition: background-color 0.3s ease;
+  }
+  
+  .creative-menu a:hover {
+    background-color: blue;
+  }
+  
+  .content {
+    margin-top: 30px;
+    background-color: mediumaquamarine; /* Fondo blanco para el contenido */
+  }
+  
